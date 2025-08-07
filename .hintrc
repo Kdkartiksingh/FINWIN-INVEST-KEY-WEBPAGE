@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/name-role-value": [
+      "default",
+      {
+        "button-name": "off",
+        "link-name": "off"
+      }
+    ],
+    "no-inline-styles": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "user-select",
+          "-webkit-text-size-adjust",
+          "text-align: -webkit-match-parent",
+          "-webkit-overflow-scrolling"
+        ]
+      }
+    ],
+    "css-prefix-order": "off"
+  }
+}
